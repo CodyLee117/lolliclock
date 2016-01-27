@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mattkrick:lolliclock',
+  name: 'codylee117:lolliclock',
   version: '0.2.0',
   // Brief, one-line summary of the package.
   summary: 'A material design timepicker based on clockpicker',
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0.3.1');
+  api.versionsFrom('METEOR@1.2');
   api.use(['stylus'], 'client');
   api.addFiles(['lolliclock.js','lolliclock.styl'],'client');
 });
